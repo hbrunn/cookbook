@@ -18,7 +18,7 @@
             </t>
         </template>
         <report id="report_res_partner_birthdays"
-            name="ch7.qweb_res_partner_birthdays"
+            name="ch08.qweb_res_partner_birthdays"
             model="res.partner"
             string="Birthdays"
             report_type="qweb-pdf" />

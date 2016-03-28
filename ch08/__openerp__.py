@@ -16,16 +16,20 @@
 #
 ##############################################################################
 {
-    "name": "Odoo cookbook - Chapter 7",
-    "version": "8.0.1.0.0",
+    "name": "Odoo cookbook - Chapter 8",
+    "version": "9.0.1.0.0",
     "author": "Odoo cookbook",
     "license": "AGPL-3",
     "category": "Odoo cookbook",
-    "summary": "All the code from chapter 7",
+    "summary": "All the code from chapter 8",
     "depends": [
         'base',
         # that's for the later recipes
         'project',
+        # that's for the pivot recipe
+        'project_timesheet',
+        # that's for teh qweb recipe
+        'report',
     ],
     "data": [
         "views/add_a_menu_item_and_window_action.xml",
