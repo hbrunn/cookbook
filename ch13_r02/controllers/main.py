@@ -14,7 +14,7 @@ class Main(http.Controller):
         result += '</td></tr></table></body></html>'
         return result
 
-    @http.route('/my_module/all-books/mark_mine', type='http', auth='public')
+    @http.route('/my_module/all-books/mark-mine', type='http', auth='public')
     def all_books_mark_mine(self):
         records = request.env['library.book'].sudo().search([])
         result = '<html><body><table>'

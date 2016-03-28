@@ -16,8 +16,8 @@
 #
 ##############################################################################
 {
-    "name": "Odoo cookbook - Chapter 12, recipe 01",
-    "version": "8.0.1.0.0",
+    "name": "Odoo cookbook - Chapter 13, recipe 01",
+    "version": "9.0.1.0.0",
     "author": "Odoo cookbook",
     "license": "AGPL-3",
     "category": "Odoo cookbook",

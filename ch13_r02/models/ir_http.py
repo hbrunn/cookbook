@@ -22,5 +22,5 @@ class IrHttp(models.Model):
     def __getattr__(self, name):
         if name.startswith('_auth_method_groups(') and name.endswith(')'):
             return lambda: self._auth_method_groups(
-                map(str.strip, name[7:-1].split(',')))
+                map(str.strip, name[20:-1].split(',')))
         return self.__getattribute__(name)
