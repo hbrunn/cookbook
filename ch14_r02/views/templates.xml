@@ -2,7 +2,7 @@
 <odoo>
     <template id="assets_frontend" inherit_id="website.assets_frontend">
         <xpath expr="." position="inside">
-            <script src="/ch13_r03_offering_snippets_to_the_user/static/src/js/ch13_r03_offering_snippets_to_the_user.js" type="text/javascript"/>
+            <link href="/ch14_r02/static/src/css/ch14_r02.css" rel="stylesheet" type="text/css"/>
         </xpath>
     </template>
 </odoo>

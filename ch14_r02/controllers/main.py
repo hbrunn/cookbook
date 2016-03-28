@@ -9,7 +9,7 @@ class Main(http.Controller):
     @http.route('/books', type='http', auth="user", website=True)
     def route(self):
         return request.render(
-            'ch13_r02_creating_or_modifying_templates.books',
+            'ch14_r02.books',
             {
                 'books': request.env['library.book'].search([]),
             })

@@ -16,18 +16,16 @@
 #
 ##############################################################################
 {
-    "name": "Odoo cookbook - Chapter 13, recipe 02",
+    "name": "Odoo cookbook - Chapter 14, recipe 01",
     "version": "9.0.1.0.0",
     "author": "Odoo cookbook",
     "license": "AGPL-3",
     "category": "Odoo cookbook",
-    "summary": "Creating or modifying templates: QWeb",
+    "summary": "Extending CSS and Javascript for the website",
     "depends": [
         'website',
-        'my_module',
     ],
     "data": [
-        "views/library_book_templates.xml",
-        'views/templates.xml',
+        "views/templates.xml",
     ],
 }

@@ -1,4 +1,4 @@
-odoo.define('ch13_r03_offering_snippets_to_the_user.snippets_animation', function(require)
+odoo.define('ch14_r03.snippets_animation', function(require)
 {
     "use strict";
     var animation = require('web_editor.snippets.animation'),

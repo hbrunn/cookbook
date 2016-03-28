@@ -16,16 +16,18 @@
 #
 ##############################################################################
 {
-    "name": "Odoo cookbook - Chapter 13, recipe 01",
+    "name": "Odoo cookbook - Chapter 14, recipe 03",
     "version": "9.0.1.0.0",
     "author": "Odoo cookbook",
     "license": "AGPL-3",
     "category": "Odoo cookbook",
-    "summary": "Extending CSS and Javascript for the website",
+    "summary": "Offering snippets to the user",
     "depends": [
         'website',
+        'my_module',
     ],
     "data": [
-        "views/templates.xml",
+        "views/snippets.xml",
+        'views/templates.xml',
     ],
 }
